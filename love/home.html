@@ -1,0 +1,158 @@
+<!doctype html>
+<html style="font-size:100px;">
+<head>
+	<meta charset="utf-8">
+	<title>home</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/love.css">
+</head>
+<body>
+	<div id="home">
+		<div class="lide">
+			<div class="homez">
+				<div class="hztop">
+					<div class="hcen1 clear">
+						<img src="img/tx2.png" alt="">
+						<span>iViperious</span>
+					</div>
+					<ul class="hcen2">
+						<li class="clear select">
+							<img src="img/home.png" alt="">
+							<span>主页</span>
+						</li>
+						<li class="clear">
+							<img src="img/wall.png" alt="">
+							<span>说说墙</span>
+						</li>
+						<li class="clear">
+							<img src="img/xin.png" alt="">
+							<span>聊天室</span>
+						</li>
+						<li class="clear">
+							<img src="img/setup.png" alt="">
+							<span>设置</span>
+						</li>
+						<li class="clear">
+							<img src="img/exit.png" alt="">
+							<span>退出</span>
+						</li>					
+					</ul>
+				</div>
+			</div>
+			<div class="homey hy1">
+				<div class="hyall">
+					<ul class="top top1">
+						<li class="open">
+							<img src="img/three.png" alt="">
+						</li>
+						<li>爱语</li>
+						<li class="li3">
+							<img src="img/site.png" alt="">
+						</li>
+					</ul>
+					<div class="bg">
+						<div class="cen1">
+							<div class="cen11 clear">
+								<img src="img/nv.png" alt="">
+								<img src="img/love1.png" alt="">
+								<img src="img/nan.png" alt="">
+							</div>
+							<span>张娜</span>
+							<var>李楠</var>
+						</div>
+						<div class="cen2">
+							<img src="img/love2.png" alt="">
+						</div>
+						<div class="cen3">暗恋他暗恋他暗恋他暗恋他暗恋他<br> 暗恋他暗恋他暗恋他<br> 暗恋他暗恋他</div>
+						<div class="cen4">相恋日期2015-10-16</div>
+						<div class="cen5">解除关系</div>
+					</div>
+				</div>
+			</div>
+			<div class="homey hy2">
+				<div class="hyall">
+					<ul class="top top1">
+						<li class="open">
+							<img src="img/three.png" alt="">
+						</li>
+						<li>爱语</li>
+						<li class="li3">
+							<img src="img/site.png" alt="">
+						</li>
+					</ul>
+					<div class="bg">					
+						<div class="cen2">
+							<img src="img/love2.png" alt="">
+						</div>
+						<div class="cen3">找个人聊聊吧</div>
+						<div class="cen5">添加关系</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/ort.js"></script>
+<script type="text/javascript" src="js/usedFunction.js"></script>
+<script type="text/javascript">
+	$('#home').scrollLeft($('.homez').width());
+	if(getCookie('mate')=="yes"){//已配对
+		$('.hy2').hide();
+		$('.hy1 .cen4').html(getCookie('time'));
+		$('.hy1').show();		
+	}else{//没有
+		$('.hy1').hide();		
+		$('.hy2').show();
+	}
+
+	// 已配对不能继续
+	$('.hy1 .li3').click(function  () {
+		alert('人不能太贪心呦');
+	})
+
+	// 解除关系
+	$('.hy1 .cen5').click(function  () {
+		setCookie('mate',-1);
+		$('.hy1').hide();		
+		$('.hy2').show();
+	})
+
+	// 配对
+	$('.hy2 .li3,.hy2 .cen5').click(function  () {
+		window.open('mate.html','_self');
+	})
+
+	// 打开左侧
+	$('.homey .open').toggle(function (){
+		$('.lide').css('transform','translateX(3.8rem)')
+	},function(){
+		$('.lide').css('transform','translateX(0rem)')
+	})
+
+
+	// 左侧操作
+	$('.homez .hcen2 li').click(function  () {
+		$(this).addClass('select').siblings().removeClass('select');
+	})
+
+	$('.homez .hcen2 li').eq(1).click(function  () {
+		window.open('wall.html','_self');
+	})
+
+	$('.homez .hcen2 li').eq(2).click(function  () {
+		window.open('chat.html','_self');
+	})
+
+	$('.homez .hcen2 li').eq(3).click(function  () {
+		window.open('setup.html','_self');
+	})
+
+	$('.homez .hcen2 li').eq(4).click(function  () {
+		window.open('start.html','_self');
+	})
+</script>
+</html>

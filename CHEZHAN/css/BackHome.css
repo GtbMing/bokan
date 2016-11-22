@@ -1,0 +1,244 @@
+body{position: relative;}
+.sy-head{
+	width: 6.4rem;
+	height: 0.68rem;
+	background: #1e1f23;
+	padding-top: 0.6rem;
+	overflow: hidden;
+}
+.sy-head span{
+	float: left;
+	font-size: 0.3rem;
+	margin-top: 0.08rem;
+	margin-left: 0.2rem;
+	color: #eeeff3;
+
+}
+.sy-head var{
+	float: left;
+	font-size: 0.4rem;
+	letter-spacing: 0.08rem;
+	margin-left: 1.2rem;
+	color: #eeeff3;
+	text-align: center;
+}
+.sy-head em{
+	float: right;
+	font-size: 0.3rem;
+	margin-top: 0.08rem;
+	margin-right: 0.2rem;
+	color: #eeeff3;
+}
+.BHome-bg{
+	width: 6.4rem;
+	height: 10.08rem;
+	background: url(../img/bg01.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.BHome-top{
+	width: 3.12rem;
+	height: 0.75rem;
+	margin: 0 auto;
+	padding-top: 0.52rem;
+}
+.BHome-top img{
+	width: 3.12rem;
+	height: 0.75rem;
+}
+.BHome-text{
+	width: 6.4rem;
+	overflow: hidden;
+}
+.BHome-text span{
+	float: left;
+	font-size: 0.26rem;
+	padding: 0.16rem 0 0 0.22rem;
+	color: #676360;
+}
+.BHome-ipt{
+	width: 5.94rem;
+	margin: 0 auto;
+	margin-top: 0.15rem;
+}
+.BHome-Name{
+	width: 5.94rem;
+	height: 0.86rem;
+	position: relative;
+	margin-top: .08rem;
+}
+.BHome-Name img{
+	width: 5.94rem;
+	height: 0.86rem;
+	display: block;
+}
+.BHome-Name input{
+	border-top: 1px solid #c6cacb;
+	border-left: 1px solid #fff;
+	width: 4.95rem;
+	height: 0.86rem;
+	font-size: 0.28rem;
+	color: #b3b3b3;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.BHome-Sub{
+	width: 4.33rem;
+	height:0.97rem;
+	margin:.33rem auto;
+	background:url(../img/btn01.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	text-align:center;
+	line-height:0.97rem;
+	cursor: pointer;
+}
+.BHome-Sub span{
+	color: #FDFBFB;
+	font-size:.42rem;
+}
+.BHome-Rul{
+	width: 6.4rem;
+	text-align: center;
+}
+.BHome-Rul span{
+	font-size: 0.4rem;
+	color: #032b73;
+	text-decoration: underline;
+}
+.rst1-share{
+	width: 5.46rem;
+	margin: 0.5rem auto;
+	overflow: hidden;
+}
+.rst1-share span{
+	float: left;
+	font-size: 0.32rem;
+	color: #71616c;
+	padding: .18rem 0 0 .07rem;
+}
+.rst1-share img{
+	float: left;
+	width: 0.68rem;
+	height: 0.68rem;
+	padding-left: 0.15rem;
+}
+.BHome-mask{
+	width: 6.4rem;
+	height: 11.36rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	overflow: hidden;
+	display: none;
+}
+.BHome-mask1{
+	width: 6.4rem;
+	height: 11.36rem;
+	background: #000;
+	opacity: 0.5;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.BHome-active{
+	float: left;
+	width: 6rem;
+	height:8.23rem;
+	border:0.06rem solid #01276E;
+	background:#fff;
+	position:absolute;
+	left:0.1rem;
+	top:1.8rem;
+	z-index:110;
+	border-radius: 2%;
+	display: none;
+}
+.BHome-Success{
+	float: left;
+	width: 6rem;
+	height:5.14rem;
+	border:0.06rem solid #01276E;
+	background:#fff;
+	position:absolute;
+	left:0.1rem;
+	top:1.8rem;
+	z-index:110;
+	border-radius: 2%;
+	display: none;
+}
+.BHome-Success span{
+	width: 6rem;
+	float: left;
+	font-size: 0.72rem;
+	color: #01296e;
+	font-weight: bolder;
+	padding: 0.6rem 0 0 1.6rem;
+}
+.BHome-Success var{
+	width: 5.4rem;
+	float: left;
+	font-size: 0.4rem;
+	color: #636363;
+	padding: 0.3rem 0 0 0.26rem;
+}
+.BHome-Notloose{
+	float: left;
+	width: 4.33rem;
+	height:0.97rem;
+	margin:.46rem auto;
+	margin-left: 0.74rem;
+	background:url(../img/btn01.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	text-align:center;
+	line-height:0.97rem;
+	cursor: pointer;
+}
+.BHome-Notloose a{
+	color: #FDFBFB;
+	font-size:.42rem;
+}
+.BHome-con{
+	width: 6rem;
+	overflow: hidden;
+	margin-top: 0.1rem;
+}
+.BHome-zi{
+	width: 6rem;
+	overflow: hidden;
+}
+.BHome-zi span{
+	float: left;
+	font-size: 0.33rem;
+	font-weight: bolder;
+	color: #06286f;
+	padding: 0.4rem 0.28rem 0 0.28rem;
+}
+.BHome-con h3,.BHome-con span{
+	float: left;
+	color: #686868;
+	font-size: 0.2rem;
+}
+.BHome-con h3{
+	padding: 0.1rem 0 0 0.27rem ;
+}
+.BHome-con span{
+	width: 4.99rem;
+	padding: 0.05rem 0.15rem;
+	line-height: 0.3rem;
+}
+.BHome-nkow{
+	width: 4.33rem;
+	height:0.97rem;
+	margin:.2rem auto;
+	background:url(../img/btn01.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	text-align:center;
+	line-height:0.97rem;
+	cursor: pointer;
+}
+.BHome-nkow span{
+	color: #FDFBFB;
+	font-size:.42rem;
+}

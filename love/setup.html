@@ -1,0 +1,63 @@
+<!doctype html>
+<html style="font-size:100px;">
+<head>
+	<meta charset="utf-8">
+	<title>setup</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/love.css">
+</head>
+<body>
+	<div id="setup">
+		<ul class="top top1">
+			<li>&lt;</li>
+			<li>设置</li>
+		</ul>
+		<div class="bg">
+			<div class="center">
+				<div class="cen1">
+					<img src="img/tx.png" alt="">
+				</div>
+				<ol>
+					<li class="clear">
+						<div class="liz">
+							<img src="img/name.png" alt="">
+						</div>
+						<div class="liy clear">
+							<span>姓名</span>
+							<img src="img/zhk.png" alt="">
+						</div>
+					</li>	
+					<li class="clear">
+						<div class="liz">
+							<img src="img/sex.png" alt="">
+						</div>
+						<div class="liy clear">
+							<span>性别</span>				
+							<img src="img/zhk.png" alt="">
+						</div>
+					</li>	
+					<li class="clear">
+						<div class="liz">
+							<img src="img/tel.png" alt="">
+						</div>
+						<div class="liy clear">
+							<span>手机号码</span>
+							<img src="img/zhk.png" alt="">
+						</div>
+					</li>			
+				</ol>
+			</div>
+		</div>	
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/ort.js"></script>
+<script type="text/javascript">
+	$('.top li').eq(0).click(function  () {
+		window.history.go(-1);
+	})
+</script>
+</html>

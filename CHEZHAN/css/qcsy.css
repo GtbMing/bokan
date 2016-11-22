@@ -1,0 +1,262 @@
+html{
+	font-size: 100px;
+}
+#box{
+	width: 6.4rem;
+	height: 11.36rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#head{
+	width: 6.4rem;
+	height: 0.68rem;
+	background: #1e1f23;
+	padding-top: 0.6rem;
+	overflow: hidden;
+}
+#hleft{
+	float: left;
+	font-size: 0.3rem;
+	margin-top: 0.08rem;
+	margin-left: 0.2rem;
+	color: #eeeff3;
+}
+#hcon{
+	float: left;
+	font-size: 0.4rem;
+	letter-spacing: 0.08rem;
+	margin-left: 1.2rem;
+	color: #eeeff3;
+	text-align: center;
+}
+#hright{
+	float: right;
+	font-size: 0.3rem;
+	margin-top: 0.08rem;
+	margin-right: 0.2rem;
+	color: #eeeff3;
+}
+#con{
+	width: 6.4rem;
+	height: 10.08rem;
+	background: url(../images/bg01.jpg) 0 0 no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.car5{
+	display: block;
+	width: 6.4rem;
+	height: 2.71rem;
+}
+.msyl{
+	margin-left: 0.65rem;
+	margin-top: 0.25rem;
+	width: 5.09rem;
+	height: 1.98rem;
+	display: block;
+}
+#wzcz,#bzxc{
+	width: 4.30rem;
+	height: 0.85rem;
+	background: #01379b;
+	margin: 0.5rem auto;
+	border: 0.01rem solid #02276e;
+	border-top: 0.03rem;
+	border-bottom: 0.05rem;
+	border-radius: 0.1rem;
+	font-size: 0.35rem;
+	word-spacing: -0.05rem;
+	color: #fbffff;
+	text-align: center;
+	line-height: 0.85rem;
+}
+#hdsm{
+	margin: 0.3rem auto;
+	text-decoration: underline;
+	font-size: 0.35rem;
+	color: #00389c;
+	width: 1.50rem;
+}
+#shuoming{
+	width: 6.4rem;
+	height: 11.36rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 5;
+	background: rgba(0,0,0,0.7);
+	display: none;
+}
+#shuoming .shuoming{
+	width: 5.18rem;
+	height: 6.17rem;
+	border: 0.08rem solid #002776;
+	border-radius: 0.2rem;
+	position: absolute;
+	left: 0.2rem;
+	top: 2.47rem;
+	background: #fff;
+	padding: 0.45rem 0.32rem;
+}
+#shuoming .shuoming dt{
+	color: #032677;
+	font-size: 0.3rem;
+}
+#shuoming .shuoming dd{
+	color: #646464;
+	font-size: 0.245rem;
+	text-indent: 0.48rem;
+	line-height: 0.40rem;
+}
+#mscj,#queding,#chongxin{
+	width: 4.26rem;
+	height: 0.87rem;
+	margin: 0.3rem auto;
+	background: #01379b;
+	border: 0.03rem solid #002e77;
+	border-radius: 0.1rem;
+	font-size: 0.48rem;
+	color: #fbfffd;
+	text-align: center;
+	line-height: 0.87rem;
+}
+#queren{
+	width: 6.4rem;
+	height: 11.36rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 5;
+	background: rgba(0,0,0,0.7);
+	display: none;
+}
+#queren .queren{
+	width: 5.18rem;
+	height: 4.33rem;
+	border: 0.08rem solid #002776;
+	border-radius: 0.2rem;
+	position: absolute;
+	left: 0.2rem;
+	top: 2.59rem;
+	background: #fff;
+	padding: 0.45rem 0.32rem;
+	text-align: center;
+}
+#queren .queren span{
+	font-size: 0.35rem;
+	color: #00296c;
+	line-height: 0.5rem;
+}
+
+/* 场外中奖 */
+
+#con .cwh1{
+	font-size: 0.5rem;
+	color: #c90128;
+	text-align: center;
+	padding: 0.4rem 0;
+}
+#con .cwspan{
+	color: #696566;
+	font-size: 0.3rem;
+	margin-left: 0.45rem;
+}
+#y{
+	width: 5.64rem;
+	height: 3.21rem;
+	margin-left:  0.45rem;
+}
+#shuru2{
+	width: 5.64rem;
+	height: 0.86rem;
+	margin-top: 0.1rem;
+	margin-left: 0.45rem;
+}
+#con input{
+	position: absolute;
+	left: 1.36rem;
+	top: 6.05rem;
+	width: 4.72rem;
+	height: 0.84rem;
+	font-size: 0.40rem;
+	color: #696566;
+}
+#cwqrtj{
+	width: 4.26rem;
+	height: 0.87rem;
+	margin: 0.3rem auto;
+	background: #01379b;
+	border: 0.03rem solid #002e77;
+	border-radius: 0.1rem;
+	font-size: 0.48rem;
+	color: #fbfffd;
+	text-align: center;
+	line-height: 0.87rem;
+}
+#tubiao{
+	overflow: hidden;
+	margin-top: 0.5rem;
+}
+#tubiao .cwspan{
+	float: left;
+	margin-top: 0.25rem;
+}
+#tubiao .tubiao{
+	float: left;
+	margin-left: 0.1rem;
+}
+#con .con{
+	width: 5.70rem;
+	margin: 0.5rem auto;
+}
+
+#con .con .wzjh1{
+	font-size: 0.5rem;
+	color: #c90128;
+	text-align: center;
+	margin-bottom: 0.3rem;
+}
+#con .con .wzjspan1{
+	font-size: 0.35rem;
+	color: #5f6d6e;
+	letter-spacing: -0.03rem;
+}
+#con .con .wzjspan2{
+	font-size: 0.36rem;
+	font-weight: 800;
+	color: #0d3479;
+}
+#con .con .wzjspan3{
+	font-size: 0.35rem;
+	color: #5f6d6e;
+}
+#con .con .ycjh1{
+	font-size: 0.5rem;
+	color: #002877;
+	text-align: center;
+	margin-bottom: 0.3rem;
+}
+
+#con .con .wzjspan4{
+	font-size: 0.33rem;
+	color: #5f6d6e;
+	letter-spacing: -0.02rem;
+}
+#con .con .wzjspan5{
+	font-size: 0.33rem;
+	color: #5f6d6e;
+}
+.price{
+	color: #696566;
+	font-size: 0.3rem;
+}
+.Img1{
+	display: none;
+}
+.Img2{
+	display: none;
+}
+.Img3{
+	display: none;
+}

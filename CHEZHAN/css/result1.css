@@ -1,0 +1,162 @@
+body{position: relative;}
+.sy-head{
+	width: 6.4rem;
+	height: 0.68rem;
+	background: #1e1f23;
+	padding-top: 0.6rem;
+	overflow: hidden;
+}
+.sy-head span{
+	float: left;
+	font-size: 0.3rem;
+	margin-top: 0.08rem;
+	margin-left: 0.2rem;
+	color: #eeeff3;
+
+}
+.sy-head var{
+	float: left;
+	font-size: 0.4rem;
+	letter-spacing: 0.08rem;
+	margin-left: 1.2rem;
+	color: #eeeff3;
+	text-align: center;
+}
+.sy-head em{
+	float: right;
+	font-size: 0.3rem;
+	margin-top: 0.08rem;
+	margin-right: 0.2rem;
+	color: #eeeff3;
+}
+.rst1-bg{
+	width: 6.4rem;
+	height: 10.08rem;
+	background: url(../img/bg01.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.rst1-text{
+	width: 6.4rem;
+	text-align: center;
+}
+.rst1-text span{
+	float: left;
+	font-size: 0.40rem;
+	font-weight: 900;
+	color: #022871;
+	padding: .3rem 0 0 .22rem;
+}
+.rst1-page{
+	width: 5.98rem;
+	height: 5.0rem;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #fff;
+}
+.rst1-page span{
+	float: left;
+	font-size: .26rem;
+	padding: .15rem 0 0.18rem 0.26rem;
+	color: #686868;
+}
+.rst1-page img{
+	/* float: left; */
+	width: 4.85rem;
+	height: 4.94rem;
+	padding: 0.4rem 0 0 .42rem;
+}
+.rst1-num{
+	width: 4.19rem;
+	height: 0.77rem;
+	margin: 0 auto;
+	overflow: hidden;
+	background: url(../img/bg03.jpg) 0 0 no-repeat;
+	background-size:100% 100%;
+}
+.rst1-num li{
+	float: left;
+	width: 0.836rem;
+	height: 0.78rem;
+	text-align: center;
+	line-height: 0.78rem;
+	color: #fff;
+	font-size: 0.33rem;
+	font-weight: bolder;
+}
+.rst1-btom{
+	width: 5.93rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.rst1-btom span{
+	float: left;
+	font-size: 0.33rem;
+	color: #022872;
+	font-weight: bolder;
+	padding: 0.21rem 0 0 0.07rem;
+}
+.rst1-btom var{
+	float: left;
+	font-size: 0.24rem;
+	color: #686767;
+	font-weight: bolder;
+	padding: 0.15rem 0.07rem;
+}
+.rst1-backhome{
+	float: left;
+	width: 4.33rem;
+	height:0.97rem;
+	background:url(../img/btn01.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	text-align:center;
+	line-height:0.97rem;
+	margin: 0.2rem 0 0 0.8rem;
+	cursor: pointer;
+}
+.rst1-backhome a{
+	color: #FDFBFB;
+	font-size:.42rem;
+}
+.rst1-share{
+	width: 5.46rem;
+	margin: 0.5rem auto;
+	overflow: hidden;
+}
+.rst1-share span{
+	float: left;
+	font-size: 0.32rem;
+	color: #71616c;
+	padding: .18rem 0 0 .07rem;
+}
+.rst1-share img{
+	float: left;
+	width: 0.68rem;
+	height: 0.68rem;
+	padding-left: 0.15rem;
+}
+.rst1-guide{
+	width: 6.4rem;
+	height: 10.58rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.rst1-mask{
+	width: 6.4rem;
+	height: 11.36rem;
+	background: #000;
+	opacity: 0.5;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.rst1-guide img{
+	position: absolute;
+	left: 0;
+	width: 6.4rem;
+	height: 4.05rem;
+	top: 0.5rem;
+	z-index: 110;
+}

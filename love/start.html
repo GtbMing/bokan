@@ -1,0 +1,103 @@
+<!doctype html>
+<html style="font-size:100px;">
+<head>
+	<meta charset="utf-8">
+	<title>start</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/love.css">
+</head>
+<body>
+	<div id="start">
+		<div class="outer">
+			<div class="clear inner">
+				<img src="img/start1.png" alt="" class="show">
+				<img src="img/start2.jpg" alt="">
+				<div class="haha">
+					<img src="img/start4.png" alt="">
+					<div class="word">
+						<span>登录</span>
+						<span class='aaa'>注册</span>
+					</div>
+				</div>
+			</div>
+			<ul class="clear">
+				<li class="select"></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/ort.js"></script>
+<script type="text/javascript">
+
+	function getClass(claname){//获取页面中所有的这个类名
+		var tags=document.all?document.all:document.getElementsByTagName('*');
+		var arr=[];
+		var reg=new RegExp('\\b'+claname+'\\b','g');
+		for (var i = 0; i < tags.length; i++) {
+			reg.lastIndex=0;
+			if(reg.test(tags[i].className)){
+				arr.push(tags[i]);
+			}
+		};
+		return arr;
+	}
+
+	var x1=0,x2=0,n=0;
+	var inner=getClass('inner')[0];
+	var ul=document.getElementsByTagName('ul')[0];
+	var haha=getClass('haha')[0];
+	var img1=haha.getElementsByTagName('img')[0];
+	var imgs=inner.getElementsByTagName('img');
+	var lis=document.getElementsByTagName('li');
+
+	window.addEventListener('touchstart',function  (e) {
+		x1=e.touches[0].clientX;
+		x2=e.touches[0].clientX;
+	},false)
+
+	window.addEventListener('touchmove',function  (e) {
+		x2=e.touches[0].clientX;
+		ul.style.display='block';
+	},false)
+
+	window.addEventListener('touchend',function  () {
+		if(x2-x1>50){
+			imgs[n].className='';
+			lis[n].className='';
+			n--;
+			if(n<0){
+				n=0;
+			}
+			imgs[n].className='show';
+			lis[n].className='select';
+		}else if(x2-x1<-50){
+			imgs[n].className='';
+			lis[n].className='';
+			n++;
+			if(n>=2){
+				n=2;
+				img1.style.display="block";
+				haha.style.display="block";
+				ul.style.display='none';
+				return false;
+			}
+			imgs[n].className='show';
+			lis[n].className='select';
+		}
+	},false)
+
+	$('span').eq(0).click(function  () {
+		window.open('login.html','_self');
+	})
+
+	$('span').eq(1).click(function  () {
+		window.open('register.html','_self');
+	})
+</script>
+</html>

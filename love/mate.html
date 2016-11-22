@@ -1,0 +1,48 @@
+<!doctype html>
+<html style="font-size:100px;">
+<head>
+	<meta charset="utf-8">
+	<title>mate</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/love.css">
+</head>
+<body>
+	<div id="mate">
+		<ul class="top top1">
+			<li>&lt;</li>
+			<li>配对</li>
+		</ul>
+		<div class="bg">
+			<div class="center">
+				<div class="cop clear">
+					<img src="img/code.png" alt="">
+					<img src="img/code2.png" alt="">				
+				</div>
+				<dl class="gain">
+					<dt>说明文字介绍如何配对？</dt>
+					<dd>获取或发送验证码验证成功后可与对方配对，查看对方信息，和对方聊天等等获取或发送验证码验证成功后可与对方配对，查看对方信息，和对方聊天等等</dd>
+				</dl>
+			</div>
+		</div>
+		
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/ort.js"></script>
+<script type="text/javascript">
+	$('.top li').eq(0).click(function  () {
+		window.history.go(-1);
+	})
+
+	$('.cop img').eq(0).click(function  () {
+		window.open('gain.html','_self');
+	})
+
+	$('.cop img').eq(1).click(function  () {
+		window.open('test.html','_self');
+	})
+</script>
+</html>

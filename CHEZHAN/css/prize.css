@@ -1,0 +1,71 @@
+body{position: relative;}
+.sy-head{
+	width: 6.4rem;
+	height: 0.68rem;
+	background: #1e1f23;
+	padding-top: 0.6rem;
+	overflow: hidden;
+}
+.sy-head span{
+	float: left;
+	font-size: 0.3rem;
+	margin-top: 0.08rem;
+	margin-left: 0.2rem;
+	color: #eeeff3;
+
+}
+.sy-head var{
+	float: left;
+	font-size: 0.4rem;
+	letter-spacing: 0.08rem;
+	margin-left: 1.2rem;
+	color: #eeeff3;
+	text-align: center;
+}
+.sy-head em{
+	float: right;
+	font-size: 0.3rem;
+	margin-top: 0.08rem;
+	margin-right: 0.2rem;
+	color: #eeeff3;
+}
+.pr-bg{
+	width: 6.4rem;
+	height: 10.08rem;
+	background: url(../img/bg01.jpg) 0 0 no-repeat;
+	background-size:100% 100%;
+}
+.pr-text{
+	width: 6.4rem;
+	height: 1.13rem;
+	overflow: hidden;
+	text-align: center;
+}
+.pr-text span,.pr-text var{
+	float: left;
+}
+.pr-text span{
+	width: 6.4rem;
+	font-size: 0.4rem;
+	font-weight: 900;
+	color: #02276F;
+	padding-top: 0.25rem;
+}
+.pr-text var{
+	width: 6.4rem;
+	font-size: 0.25rem;
+	color: #666769;
+	padding-top: 0.1rem;
+	font-weight: bolder;
+}
+.pr-top img{
+	width: 6.4rem;
+	height: 2.71rem;
+}
+.pr-star{
+	margin: 0.2rem 0 0 0.1rem;
+}
+.pr-star img{
+	width: 1.99rem;
+	height: 2.77rem;
+}

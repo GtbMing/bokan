@@ -1,0 +1,76 @@
+<!doctype html>
+<html style="font-size:100px;">
+<head>
+	<meta charset="utf-8">
+	<title>login</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/love.css">
+</head>
+<body>
+	<div id="login">
+		<ul class="top">
+			<li>&lt;</li>
+			<li>登录</li>
+		</ul>
+		<div class="center">
+			<div class="logo">
+				<img src="img/logo.png" alt="">
+			</div>
+			<div class="xx">
+				<div class="user clear">
+					<div class="userz">
+						<img src="img/user.png" alt="">
+					</div>
+					<div class="usery">
+						<input type="text" name="" value="" required placeholder="用户名">
+					</div>
+				</div>
+				<div class="bian"></div>
+				<div class="pass clear">
+					<div class="userz">
+						<img src="img/pass.png" alt="">
+					</div>
+					<div class="usery">
+						<input type="password" name="" value="" required placeholder="请输入密码">
+					</div>
+				</div>
+			</div>
+			<div class="dlu">Login in</div>
+			<div class="clear fandz">
+				<span>忘记密码</span>
+				<var>注册账号</var>
+			</div>
+			<div class="shj">社交账户一键登录</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/ort.js"></script>
+<script type="text/javascript" src="js/usedFunction.js"></script>
+<script type="text/javascript">
+	$('.dlu').click(function  () {
+		if($('.user input').val()!=getCookie('user')){
+			alert('该用户不存在');
+		}else if($('.pass input').val()!=getCookie('pass')){
+			alert('密码错误，请重新输入');
+		}else{
+			window.open('home.html','_self');
+		}
+	})
+
+	$('.fandz span').click(function  () {
+		window.open('forget.html','_self');
+	})
+
+	$('.fandz var').click(function  () {
+		window.open('register.html','_self');
+	})
+
+	$('.top li').eq(0).click(function  () {
+		window.history.go(-1);
+	})
+</script>
+</html>
